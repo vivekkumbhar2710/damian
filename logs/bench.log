@@ -1,0 +1,262 @@
+2023-02-28 22:24:46,303 DEBUG cd damian && python3 -m venv env
+2023-02-28 22:24:48,870 DEBUG cd damian && /home/vivek/damian/env/bin/python -m pip install  --upgrade pip
+2023-02-28 22:24:50,559 DEBUG cd damian && /home/vivek/damian/env/bin/python -m pip install  wheel
+2023-02-28 22:24:52,444 LOG Getting frappe
+2023-02-28 22:24:52,444 DEBUG cd damian/apps && git clone https://github.com/frappe/frappe.git --branch version-14 --depth 1 --origin upstream
+2023-02-28 22:24:59,330 LOG Installing frappe
+2023-02-28 22:24:59,330 DEBUG cd /home/vivek/damian && /home/vivek/damian/env/bin/python -m pip install  --upgrade -e /home/vivek/damian/apps/frappe 
+2023-02-28 22:25:23,301 DEBUG cd /home/vivek/damian/apps/frappe && yarn install
+2023-02-28 22:25:30,140 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-02-28 22:25:30,140 DEBUG cd damian && bench build
+2023-02-28 22:25:30,230 INFO /usr/local/bin/bench build
+2023-02-28 22:25:45,155 LOG setting up backups
+2023-02-28 22:25:45,168 LOG backups were set up
+2023-02-28 22:25:45,168 INFO Bench damian initialized
+2023-02-28 22:25:45,350 INFO A newer version of bench is available: 5.16.0 → 5.16.2
+2023-02-28 22:26:31,282 INFO /usr/local/bin/bench get-app erpnext --branch version-14
+2023-02-28 22:26:31,864 LOG Getting erpnext
+2023-02-28 22:26:31,864 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-14 --depth 1 --origin upstream
+2023-02-28 22:26:40,129 LOG Installing erpnext
+2023-02-28 22:26:40,223 DEBUG cd /home/vivek/damian && /home/vivek/damian/env/bin/python -m pip install --quiet --upgrade -e /home/vivek/damian/apps/erpnext 
+2023-02-28 22:26:45,114 DEBUG cd /home/vivek/damian/apps/erpnext && yarn install
+2023-02-28 22:26:45,592 DEBUG bench build --app erpnext
+2023-02-28 22:26:45,677 INFO /usr/local/bin/bench build --app erpnext
+2023-02-28 22:26:51,503 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-02-28 22:26:51,653 INFO A newer version of bench is available: 5.16.0 → 5.16.2
+2023-02-28 22:27:12,117 INFO /usr/local/bin/bench get-app payments
+2023-02-28 22:27:12,774 LOG Getting payments
+2023-02-28 22:27:12,774 DEBUG cd ./apps && git clone https://github.com/frappe/payments.git  --depth 1 --origin upstream
+2023-02-28 22:27:13,840 LOG Installing payments
+2023-02-28 22:27:13,959 DEBUG cd /home/vivek/damian && /home/vivek/damian/env/bin/python -m pip install --quiet --upgrade -e /home/vivek/damian/apps/payments 
+2023-02-28 22:27:15,948 DEBUG bench build --app payments
+2023-02-28 22:27:16,037 INFO /usr/local/bin/bench build --app payments
+2023-02-28 22:27:20,635 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-02-28 22:27:20,757 INFO A newer version of bench is available: 5.16.0 → 5.16.2
+2023-02-28 22:28:23,983 INFO /usr/local/bin/bench new-site lillard.com
+2023-02-28 22:30:51,597 INFO /usr/local/bin/bench --site lillard.com install-app erpnext
+2023-02-28 22:46:11,047 INFO /usr/local/bin/bench --site lillard.com install-app payments
+2023-02-28 22:48:42,975 INFO /usr/local/bin/bench use lillard.com
+2023-02-28 22:50:09,883 INFO /usr/local/bin/bench start
+2023-02-28 22:50:10,120 INFO /usr/local/bin/bench worker
+2023-02-28 22:50:10,122 INFO /usr/local/bin/bench serve --port 8008
+2023-02-28 22:50:10,122 INFO /usr/local/bin/bench schedule
+2023-02-28 22:50:10,160 INFO /usr/local/bin/bench watch
+2023-02-28 22:53:24,934 INFO /usr/local/bin/bench start
+2023-02-28 22:53:25,169 INFO /usr/local/bin/bench schedule
+2023-02-28 22:53:25,194 INFO /usr/local/bin/bench watch
+2023-02-28 22:53:25,210 INFO /usr/local/bin/bench serve --port 8008
+2023-02-28 22:53:25,213 INFO /usr/local/bin/bench worker
+2023-02-28 23:37:19,119 INFO /usr/local/bin/bench new-app dairy
+2023-02-28 23:37:19,123 LOG creating new app dairy
+2023-02-28 23:37:54,888 LOG Installing dairy
+2023-02-28 23:37:54,889 DEBUG cd /home/vivek/damian && /home/vivek/damian/env/bin/python -m pip install --quiet --upgrade -e /home/vivek/damian/apps/dairy 
+2023-02-28 23:37:56,225 DEBUG bench build --app dairy
+2023-02-28 23:37:56,314 INFO /usr/local/bin/bench build --app dairy
+2023-02-28 23:38:00,929 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-02-28 23:38:01,125 INFO A newer version of bench is available: 5.16.0 → 5.16.2
+2023-02-28 23:39:20,795 INFO /usr/local/bin/bench --site lillard.com install-app dairy
+2023-02-28 23:39:31,243 INFO /usr/local/bin/bench start
+2023-02-28 23:39:31,484 INFO /usr/local/bin/bench serve --port 8008
+2023-02-28 23:39:31,495 INFO /usr/local/bin/bench worker
+2023-02-28 23:39:31,496 INFO /usr/local/bin/bench watch
+2023-02-28 23:39:31,514 INFO /usr/local/bin/bench schedule
+2023-03-01 00:00:01,549 INFO /usr/local/bin/bench --verbose --site all backup
+2023-03-01 00:14:08,649 INFO /usr/local/bin/bench --site lillard.com set-config developer_mode 1
+2023-03-01 00:14:22,018 INFO /usr/local/bin/bench start
+2023-03-01 00:14:22,259 INFO /usr/local/bin/bench schedule
+2023-03-01 00:14:22,275 INFO /usr/local/bin/bench watch
+2023-03-01 00:14:22,294 INFO /usr/local/bin/bench serve --port 8008
+2023-03-01 00:14:22,296 INFO /usr/local/bin/bench worker
+2023-03-01 09:53:28,066 INFO /usr/local/bin/bench start
+2023-03-01 09:53:28,367 INFO /usr/local/bin/bench schedule
+2023-03-01 09:53:28,376 INFO /usr/local/bin/bench serve --port 8008
+2023-03-01 09:53:28,409 INFO /usr/local/bin/bench watch
+2023-03-01 09:53:28,412 INFO /usr/local/bin/bench worker
+2023-03-01 11:30:15,910 INFO /usr/local/bin/bench start
+2023-03-01 11:30:16,164 INFO /usr/local/bin/bench serve --port 8008
+2023-03-01 11:30:16,171 INFO /usr/local/bin/bench worker
+2023-03-01 11:30:16,190 INFO /usr/local/bin/bench schedule
+2023-03-01 11:30:16,190 INFO /usr/local/bin/bench watch
+2023-03-01 12:00:01,362 INFO /usr/local/bin/bench --verbose --site all backup
+2023-03-01 12:12:32,572 INFO /usr/local/bin/bench start
+2023-03-01 12:12:32,819 INFO /usr/local/bin/bench worker
+2023-03-01 12:12:32,854 INFO /usr/local/bin/bench serve --port 8008
+2023-03-01 12:12:32,857 INFO /usr/local/bin/bench schedule
+2023-03-01 12:12:32,860 INFO /usr/local/bin/bench watch
+2023-03-01 12:14:35,387 INFO /usr/local/bin/bench start
+2023-03-01 12:14:35,632 INFO /usr/local/bin/bench worker
+2023-03-01 12:14:35,648 INFO /usr/local/bin/bench schedule
+2023-03-01 12:14:35,669 INFO /usr/local/bin/bench watch
+2023-03-01 12:14:35,671 INFO /usr/local/bin/bench serve --port 8008
+2023-03-01 12:15:13,118 INFO /usr/local/bin/bench --site lillard.com set-config developer_mode 0
+2023-03-01 12:15:22,381 INFO /usr/local/bin/bench --site lillard.com set-config developer_mode 1
+2023-03-01 12:15:32,203 INFO /usr/local/bin/bench start
+2023-03-01 12:15:32,447 INFO /usr/local/bin/bench schedule
+2023-03-01 12:15:32,447 INFO /usr/local/bin/bench watch
+2023-03-01 12:15:32,488 INFO /usr/local/bin/bench serve --port 8008
+2023-03-01 12:15:32,496 INFO /usr/local/bin/bench worker
+2023-03-02 09:53:00,381 INFO /usr/local/bin/bench start
+2023-03-02 09:53:00,683 INFO /usr/local/bin/bench watch
+2023-03-02 09:53:00,688 INFO /usr/local/bin/bench serve --port 8008
+2023-03-02 09:53:00,724 INFO /usr/local/bin/bench schedule
+2023-03-02 09:53:00,725 INFO /usr/local/bin/bench worker
+2023-03-02 12:00:01,604 INFO /usr/local/bin/bench --verbose --site all backup
+2023-03-02 18:00:01,500 INFO /usr/local/bin/bench --verbose --site all backup
+2023-03-04 12:24:50,154 INFO /usr/local/bin/bench start
+2023-03-04 12:24:50,415 INFO /usr/local/bin/bench watch
+2023-03-04 12:24:50,438 INFO /usr/local/bin/bench worker
+2023-03-04 12:24:50,448 INFO /usr/local/bin/bench serve --port 8008
+2023-03-04 12:24:50,453 INFO /usr/local/bin/bench schedule
+2023-03-04 13:57:54,293 INFO /usr/local/bin/bench start
+2023-03-04 13:57:54,591 INFO /usr/local/bin/bench serve --port 8008
+2023-03-04 13:57:54,597 INFO /usr/local/bin/bench schedule
+2023-03-04 13:57:54,601 INFO /usr/local/bin/bench watch
+2023-03-04 13:57:54,619 INFO /usr/local/bin/bench worker
+2023-03-04 14:35:16,949 INFO /usr/local/bin/bench start
+2023-03-04 14:35:17,260 INFO /usr/local/bin/bench serve --port 8008
+2023-03-04 14:35:17,271 INFO /usr/local/bin/bench watch
+2023-03-04 14:35:17,273 INFO /usr/local/bin/bench worker
+2023-03-04 14:35:17,275 INFO /usr/local/bin/bench schedule
+2023-03-04 18:00:02,046 INFO /usr/local/bin/bench --verbose --site all backup
+2023-03-05 18:00:01,426 INFO /usr/local/bin/bench --verbose --site all backup
+2023-03-06 10:57:35,136 INFO /usr/local/bin/bench start
+2023-03-06 10:57:35,423 INFO /usr/local/bin/bench watch
+2023-03-06 10:57:35,428 INFO /usr/local/bin/bench schedule
+2023-03-06 10:57:35,462 INFO /usr/local/bin/bench serve --port 8008
+2023-03-06 10:57:35,470 INFO /usr/local/bin/bench worker
+2023-03-06 12:00:01,782 INFO /usr/local/bin/bench --verbose --site all backup
+2023-03-06 18:00:01,928 INFO /usr/local/bin/bench --verbose --site all backup
+2023-03-07 10:07:38,964 INFO /usr/local/bin/bench start
+2023-03-07 10:07:39,237 INFO /usr/local/bin/bench worker
+2023-03-07 10:07:39,238 INFO /usr/local/bin/bench serve --port 8008
+2023-03-07 10:07:39,247 INFO /usr/local/bin/bench schedule
+2023-03-07 10:07:39,248 INFO /usr/local/bin/bench watch
+2023-03-07 12:00:02,072 INFO /usr/local/bin/bench --verbose --site all backup
+2023-03-08 10:02:58,389 INFO /usr/local/bin/bench start
+2023-03-08 10:02:58,687 INFO /usr/local/bin/bench serve --port 8008
+2023-03-08 10:02:58,696 INFO /usr/local/bin/bench watch
+2023-03-08 10:02:58,720 INFO /usr/local/bin/bench worker
+2023-03-08 10:02:58,721 INFO /usr/local/bin/bench schedule
+2023-03-08 12:00:01,990 INFO /usr/local/bin/bench --verbose --site all backup
+2023-03-08 18:00:01,242 INFO /usr/local/bin/bench --verbose --site all backup
+2023-03-08 19:50:45,787 INFO /usr/local/bin/bench start
+2023-03-08 19:50:46,292 INFO /usr/local/bin/bench serve --port 8008
+2023-03-08 19:50:46,294 INFO /usr/local/bin/bench worker
+2023-03-08 19:50:46,370 INFO /usr/local/bin/bench schedule
+2023-03-08 19:50:46,372 INFO /usr/local/bin/bench watch
+2023-03-08 22:06:46,969 INFO /usr/local/bin/bench start
+2023-03-08 22:06:47,266 INFO /usr/local/bin/bench watch
+2023-03-08 22:06:47,266 INFO /usr/local/bin/bench serve --port 8008
+2023-03-08 22:06:47,278 INFO /usr/local/bin/bench worker
+2023-03-08 22:06:47,278 INFO /usr/local/bin/bench schedule
+2023-03-09 00:00:01,296 INFO /usr/local/bin/bench --verbose --site all backup
+2023-03-09 01:10:46,532 INFO /usr/local/bin/bench restart
+2023-03-09 01:10:46,537 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-03-09 01:10:47,236 INFO A newer version of bench is available: 5.16.0 → 5.16.2
+2023-03-09 01:11:01,261 INFO /usr/local/bin/bench start
+2023-03-09 01:11:01,522 INFO /usr/local/bin/bench watch
+2023-03-09 01:11:01,524 INFO /usr/local/bin/bench worker
+2023-03-09 01:11:01,562 INFO /usr/local/bin/bench serve --port 8008
+2023-03-09 01:11:01,563 INFO /usr/local/bin/bench schedule
+2023-03-09 10:08:51,115 INFO /usr/local/bin/bench start
+2023-03-09 10:08:51,440 INFO /usr/local/bin/bench serve --port 8008
+2023-03-09 10:08:51,456 INFO /usr/local/bin/bench worker
+2023-03-09 10:08:51,466 INFO /usr/local/bin/bench watch
+2023-03-09 10:08:51,470 INFO /usr/local/bin/bench schedule
+2023-03-09 12:00:01,430 INFO /usr/local/bin/bench --verbose --site all backup
+2023-03-09 18:00:01,431 INFO /usr/local/bin/bench --verbose --site all backup
+2023-03-11 06:53:42,434 INFO /usr/local/bin/bench start
+2023-03-11 06:53:42,775 INFO /usr/local/bin/bench worker
+2023-03-11 06:53:42,775 INFO /usr/local/bin/bench serve --port 8008
+2023-03-11 06:53:42,776 INFO /usr/local/bin/bench schedule
+2023-03-11 06:53:42,785 INFO /usr/local/bin/bench watch
+2023-03-11 08:48:26,776 INFO /usr/local/bin/bench start
+2023-03-11 08:48:27,088 INFO /usr/local/bin/bench watch
+2023-03-11 08:48:27,100 INFO /usr/local/bin/bench worker
+2023-03-11 08:48:27,109 INFO /usr/local/bin/bench serve --port 8008
+2023-03-11 08:48:27,113 INFO /usr/local/bin/bench schedule
+2023-03-11 12:54:05,602 INFO /usr/local/bin/bench start
+2023-03-11 12:54:05,920 INFO /usr/local/bin/bench schedule
+2023-03-11 12:54:05,920 INFO /usr/local/bin/bench watch
+2023-03-11 12:54:05,956 INFO /usr/local/bin/bench serve --port 8008
+2023-03-11 12:54:05,960 INFO /usr/local/bin/bench worker
+2023-03-11 14:42:43,705 INFO /usr/local/bin/bench start
+2023-03-11 14:42:44,000 INFO /usr/local/bin/bench worker
+2023-03-11 14:42:44,007 INFO /usr/local/bin/bench schedule
+2023-03-11 14:42:44,039 INFO /usr/local/bin/bench serve --port 8008
+2023-03-11 14:42:44,046 INFO /usr/local/bin/bench watch
+2023-03-11 15:05:36,095 INFO /usr/local/bin/bench mariadb
+2023-03-11 15:06:45,540 INFO /usr/local/bin/bench mariadb
+2023-03-11 15:08:09,119 INFO /usr/local/bin/bench mariadb
+2023-03-11 15:09:08,444 INFO /usr/local/bin/bench mariadb
+2023-03-13 10:03:58,354 INFO /usr/local/bin/bench start
+2023-03-13 10:03:58,646 INFO /usr/local/bin/bench serve --port 8008
+2023-03-13 10:03:58,647 INFO /usr/local/bin/bench worker
+2023-03-13 10:03:58,686 INFO /usr/local/bin/bench watch
+2023-03-13 10:03:58,691 INFO /usr/local/bin/bench schedule
+2023-03-13 11:10:48,605 INFO /usr/local/bin/bench start
+2023-03-13 11:10:48,858 INFO /usr/local/bin/bench watch
+2023-03-13 11:10:48,862 INFO /usr/local/bin/bench worker
+2023-03-13 11:10:48,887 INFO /usr/local/bin/bench serve --port 8008
+2023-03-13 11:10:48,888 INFO /usr/local/bin/bench schedule
+2023-03-13 12:00:01,644 INFO /usr/local/bin/bench --verbose --site all backup
+2023-03-13 14:49:51,658 INFO /usr/local/bin/bench start
+2023-03-13 14:49:51,954 INFO /usr/local/bin/bench serve --port 8008
+2023-03-13 14:49:51,959 INFO /usr/local/bin/bench watch
+2023-03-13 14:49:51,962 INFO /usr/local/bin/bench schedule
+2023-03-13 14:49:51,981 INFO /usr/local/bin/bench worker
+2023-03-13 18:00:01,841 INFO /usr/local/bin/bench --verbose --site all backup
+2023-03-13 18:51:22,735 INFO /usr/local/bin/bench start
+2023-03-13 18:51:23,340 INFO /usr/local/bin/bench worker
+2023-03-13 18:51:23,346 INFO /usr/local/bin/bench watch
+2023-03-13 18:51:23,348 INFO /usr/local/bin/bench serve --port 8008
+2023-03-13 18:51:23,353 INFO /usr/local/bin/bench schedule
+2023-03-14 09:07:36,977 INFO /usr/local/bin/bench start
+2023-03-14 09:07:37,322 INFO /usr/local/bin/bench watch
+2023-03-14 09:07:37,332 INFO /usr/local/bin/bench worker
+2023-03-14 09:07:37,354 INFO /usr/local/bin/bench serve --port 8008
+2023-03-14 09:07:37,362 INFO /usr/local/bin/bench schedule
+2023-03-14 12:00:01,565 INFO /usr/local/bin/bench --verbose --site all backup
+2023-03-15 10:18:14,074 INFO /usr/local/bin/bench start
+2023-03-15 10:18:14,361 INFO /usr/local/bin/bench watch
+2023-03-15 10:18:14,363 INFO /usr/local/bin/bench schedule
+2023-03-15 10:18:14,377 INFO /usr/local/bin/bench worker
+2023-03-15 10:18:14,384 INFO /usr/local/bin/bench serve --port 8008
+2023-03-15 12:00:01,866 INFO /usr/local/bin/bench --verbose --site all backup
+2023-03-15 12:05:45,506 INFO /usr/local/bin/bench mariadb
+2023-03-15 16:10:52,194 INFO /usr/local/bin/bench start
+2023-03-15 16:10:52,501 INFO /usr/local/bin/bench watch
+2023-03-15 16:10:52,503 INFO /usr/local/bin/bench worker
+2023-03-15 16:10:52,505 INFO /usr/local/bin/bench schedule
+2023-03-15 16:10:52,517 INFO /usr/local/bin/bench serve --port 8008
+2023-03-15 17:03:02,150 INFO /usr/local/bin/bench mariadb
+2023-03-15 17:06:40,649 INFO /usr/local/bin/bench mariadb
+2023-03-15 18:00:01,658 INFO /usr/local/bin/bench --verbose --site all backup
+2023-03-16 12:00:02,128 INFO /usr/local/bin/bench --verbose --site all backup
+2023-03-16 12:19:23,438 INFO /usr/local/bin/bench start
+2023-03-16 12:19:23,696 INFO /usr/local/bin/bench worker
+2023-03-16 12:19:23,696 INFO /usr/local/bin/bench schedule
+2023-03-16 12:19:23,732 INFO /usr/local/bin/bench watch
+2023-03-16 12:19:23,735 INFO /usr/local/bin/bench serve --port 8008
+2023-03-17 11:35:13,944 INFO /usr/local/bin/bench start
+2023-03-17 11:35:14,202 INFO /usr/local/bin/bench watch
+2023-03-17 11:35:14,202 INFO /usr/local/bin/bench serve --port 8008
+2023-03-17 11:35:14,225 INFO /usr/local/bin/bench worker
+2023-03-17 11:35:14,238 INFO /usr/local/bin/bench schedule
+2023-03-17 20:37:31,572 INFO /usr/local/bin/bench start
+2023-03-17 20:37:31,871 INFO /usr/local/bin/bench watch
+2023-03-17 20:37:31,871 INFO /usr/local/bin/bench serve --port 8008
+2023-03-17 20:37:31,902 INFO /usr/local/bin/bench schedule
+2023-03-17 20:37:31,903 INFO /usr/local/bin/bench worker
+2023-03-24 11:02:08,967 INFO /usr/local/bin/bench start
+2023-03-24 11:02:09,277 INFO /usr/local/bin/bench schedule
+2023-03-24 11:02:09,279 INFO /usr/local/bin/bench serve --port 8008
+2023-03-24 11:02:09,318 INFO /usr/local/bin/bench watch
+2023-03-24 11:02:09,322 INFO /usr/local/bin/bench worker
+2023-03-24 12:00:02,136 INFO /usr/local/bin/bench --verbose --site all backup
+2023-03-28 09:59:15,928 INFO /usr/local/bin/bench start
+2023-03-28 09:59:16,267 INFO /usr/local/bin/bench serve --port 8008
+2023-03-28 09:59:16,269 INFO /usr/local/bin/bench watch
+2023-03-28 09:59:16,269 INFO /usr/local/bin/bench schedule
+2023-03-28 09:59:16,280 INFO /usr/local/bin/bench worker
+2023-03-28 12:00:01,917 INFO /usr/local/bin/bench --verbose --site all backup

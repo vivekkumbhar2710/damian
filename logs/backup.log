@@ -1,0 +1,132 @@
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3de0c388341b054e -p********** _3de0c388341b054e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./lillard.com/private/backups/20230301_000002-lillard_com-database.sql.gz
+
+Backup Summary for lillard.com at 2023-03-01 00:00:03.585233
+Config  : ./lillard.com/private/backups/20230301_000002-lillard_com-site_config_backup.json 94.0B
+Database: ./lillard.com/private/backups/20230301_000002-lillard_com-database.sql.gz         1.0MiB
+Backup for Site lillard.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3de0c388341b054e -p********** _3de0c388341b054e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./lillard.com/private/backups/20230301_120002-lillard_com-database.sql.gz
+
+Backup Summary for lillard.com at 2023-03-01 12:00:03.543917
+Config  : ./lillard.com/private/backups/20230301_120002-lillard_com-site_config_backup.json 116.0B
+Database: ./lillard.com/private/backups/20230301_120002-lillard_com-database.sql.gz         1.1MiB
+Backup for Site lillard.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3de0c388341b054e -p********** _3de0c388341b054e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./lillard.com/private/backups/20230302_120003-lillard_com-database.sql.gz
+
+Backup Summary for lillard.com at 2023-03-02 12:00:05.254456
+Config  : ./lillard.com/private/backups/20230302_120003-lillard_com-site_config_backup.json 116.0B
+Database: ./lillard.com/private/backups/20230302_120003-lillard_com-database.sql.gz         1.1MiB
+Backup for Site lillard.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3de0c388341b054e -p********** _3de0c388341b054e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./lillard.com/private/backups/20230302_180003-lillard_com-database.sql.gz
+
+Backup Summary for lillard.com at 2023-03-02 18:00:07.668469
+Config  : ./lillard.com/private/backups/20230302_180003-lillard_com-site_config_backup.json 116.0B
+Database: ./lillard.com/private/backups/20230302_180003-lillard_com-database.sql.gz         1.1MiB
+Backup for Site lillard.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3de0c388341b054e -p********** _3de0c388341b054e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./lillard.com/private/backups/20230304_180004-lillard_com-database.sql.gz
+
+Backup Summary for lillard.com at 2023-03-04 18:00:06.727755
+Config  : ./lillard.com/private/backups/20230304_180004-lillard_com-site_config_backup.json 116.0B
+Database: ./lillard.com/private/backups/20230304_180004-lillard_com-database.sql.gz         1.1MiB
+Backup for Site lillard.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3de0c388341b054e -p********** _3de0c388341b054e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./lillard.com/private/backups/20230305_180003-lillard_com-database.sql.gz
+
+Backup Summary for lillard.com at 2023-03-05 18:00:08.396131
+Config  : ./lillard.com/private/backups/20230305_180003-lillard_com-site_config_backup.json 116.0B
+Database: ./lillard.com/private/backups/20230305_180003-lillard_com-database.sql.gz         1.1MiB
+Backup for Site lillard.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3de0c388341b054e -p********** _3de0c388341b054e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./lillard.com/private/backups/20230306_120003-lillard_com-database.sql.gz
+
+Backup Summary for lillard.com at 2023-03-06 12:00:04.986664
+Config  : ./lillard.com/private/backups/20230306_120003-lillard_com-site_config_backup.json 116.0B
+Database: ./lillard.com/private/backups/20230306_120003-lillard_com-database.sql.gz         1.1MiB
+Backup for Site lillard.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3de0c388341b054e -p********** _3de0c388341b054e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./lillard.com/private/backups/20230306_180004-lillard_com-database.sql.gz
+
+Backup Summary for lillard.com at 2023-03-06 18:00:07.813700
+Config  : ./lillard.com/private/backups/20230306_180004-lillard_com-site_config_backup.json 116.0B
+Database: ./lillard.com/private/backups/20230306_180004-lillard_com-database.sql.gz         1.1MiB
+Backup for Site lillard.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3de0c388341b054e -p********** _3de0c388341b054e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./lillard.com/private/backups/20230307_120003-lillard_com-database.sql.gz
+
+Backup Summary for lillard.com at 2023-03-07 12:00:05.243465
+Config  : ./lillard.com/private/backups/20230307_120003-lillard_com-site_config_backup.json 116.0B
+Database: ./lillard.com/private/backups/20230307_120003-lillard_com-database.sql.gz         1.3MiB
+Backup for Site lillard.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3de0c388341b054e -p********** _3de0c388341b054e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./lillard.com/private/backups/20230308_120002-lillard_com-database.sql.gz
+
+Backup Summary for lillard.com at 2023-03-08 12:00:04.630664
+Config  : ./lillard.com/private/backups/20230308_120002-lillard_com-site_config_backup.json 116.0B
+Database: ./lillard.com/private/backups/20230308_120002-lillard_com-database.sql.gz         1.3MiB
+Backup for Site lillard.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3de0c388341b054e -p********** _3de0c388341b054e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./lillard.com/private/backups/20230308_180002-lillard_com-database.sql.gz
+
+Backup Summary for lillard.com at 2023-03-08 18:00:05.706576
+Config  : ./lillard.com/private/backups/20230308_180002-lillard_com-site_config_backup.json 116.0B
+Database: ./lillard.com/private/backups/20230308_180002-lillard_com-database.sql.gz         1.4MiB
+Backup for Site lillard.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3de0c388341b054e -p********** _3de0c388341b054e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./lillard.com/private/backups/20230309_000002-lillard_com-database.sql.gz
+
+Backup Summary for lillard.com at 2023-03-09 00:00:03.753856
+Config  : ./lillard.com/private/backups/20230309_000002-lillard_com-site_config_backup.json 116.0B
+Database: ./lillard.com/private/backups/20230309_000002-lillard_com-database.sql.gz         1.4MiB
+Backup for Site lillard.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3de0c388341b054e -p********** _3de0c388341b054e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./lillard.com/private/backups/20230309_120002-lillard_com-database.sql.gz
+
+Backup Summary for lillard.com at 2023-03-09 12:00:04.043890
+Config  : ./lillard.com/private/backups/20230309_120002-lillard_com-site_config_backup.json 116.0B
+Database: ./lillard.com/private/backups/20230309_120002-lillard_com-database.sql.gz         1.4MiB
+Backup for Site lillard.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3de0c388341b054e -p********** _3de0c388341b054e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./lillard.com/private/backups/20230309_180003-lillard_com-database.sql.gz
+
+Backup Summary for lillard.com at 2023-03-09 18:00:06.478024
+Config  : ./lillard.com/private/backups/20230309_180003-lillard_com-site_config_backup.json 116.0B
+Database: ./lillard.com/private/backups/20230309_180003-lillard_com-database.sql.gz         1.5MiB
+Backup for Site lillard.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3de0c388341b054e -p********** _3de0c388341b054e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./lillard.com/private/backups/20230313_120003-lillard_com-database.sql.gz
+
+Backup Summary for lillard.com at 2023-03-13 12:00:05.177486
+Config  : ./lillard.com/private/backups/20230313_120003-lillard_com-site_config_backup.json 116.0B
+Database: ./lillard.com/private/backups/20230313_120003-lillard_com-database.sql.gz         1.5MiB
+Backup for Site lillard.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3de0c388341b054e -p********** _3de0c388341b054e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./lillard.com/private/backups/20230313_180002-lillard_com-database.sql.gz
+
+Backup Summary for lillard.com at 2023-03-13 18:00:05.104159
+Config  : ./lillard.com/private/backups/20230313_180002-lillard_com-site_config_backup.json 116.0B
+Database: ./lillard.com/private/backups/20230313_180002-lillard_com-database.sql.gz         1.5MiB
+Backup for Site lillard.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3de0c388341b054e -p********** _3de0c388341b054e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./lillard.com/private/backups/20230314_120002-lillard_com-database.sql.gz
+
+Backup Summary for lillard.com at 2023-03-14 12:00:04.541006
+Config  : ./lillard.com/private/backups/20230314_120002-lillard_com-site_config_backup.json 116.0B
+Database: ./lillard.com/private/backups/20230314_120002-lillard_com-database.sql.gz         1.7MiB
+Backup for Site lillard.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3de0c388341b054e -p********** _3de0c388341b054e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./lillard.com/private/backups/20230315_120003-lillard_com-database.sql.gz
+
+Backup Summary for lillard.com at 2023-03-15 12:00:05.625120
+Config  : ./lillard.com/private/backups/20230315_120003-lillard_com-site_config_backup.json 116.0B
+Database: ./lillard.com/private/backups/20230315_120003-lillard_com-database.sql.gz         1.7MiB
+Backup for Site lillard.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3de0c388341b054e -p********** _3de0c388341b054e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./lillard.com/private/backups/20230315_180002-lillard_com-database.sql.gz
+
+Backup Summary for lillard.com at 2023-03-15 18:00:04.608310
+Config  : ./lillard.com/private/backups/20230315_180002-lillard_com-site_config_backup.json 116.0B
+Database: ./lillard.com/private/backups/20230315_180002-lillard_com-database.sql.gz         1.8MiB
+Backup for Site lillard.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3de0c388341b054e -p********** _3de0c388341b054e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./lillard.com/private/backups/20230316_120004-lillard_com-database.sql.gz
+
+Backup Summary for lillard.com at 2023-03-16 12:00:09.771931
+Config  : ./lillard.com/private/backups/20230316_120004-lillard_com-site_config_backup.json 116.0B
+Database: ./lillard.com/private/backups/20230316_120004-lillard_com-database.sql.gz         1.8MiB
+Backup for Site lillard.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3de0c388341b054e -p********** _3de0c388341b054e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./lillard.com/private/backups/20230324_120003-lillard_com-database.sql.gz
+
+Backup Summary for lillard.com at 2023-03-24 12:00:04.811483
+Config  : ./lillard.com/private/backups/20230324_120003-lillard_com-site_config_backup.json 116.0B
+Database: ./lillard.com/private/backups/20230324_120003-lillard_com-database.sql.gz         1.8MiB
+Backup for Site lillard.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3de0c388341b054e -p********** _3de0c388341b054e -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./lillard.com/private/backups/20230328_120003-lillard_com-database.sql.gz
+
+Backup Summary for lillard.com at 2023-03-28 12:00:05.896217
+Config  : ./lillard.com/private/backups/20230328_120003-lillard_com-site_config_backup.json 116.0B
+Database: ./lillard.com/private/backups/20230328_120003-lillard_com-database.sql.gz         1.8MiB
+Backup for Site lillard.com has been successfully completed
