@@ -33501,3 +33501,31 @@ redis.exceptions.ConnectionError: Connection closed by server.
   val = self.func(instance)
 /usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
   val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
+/usr/lib/python3.10/functools.py:981: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  val = self.func(instance)
